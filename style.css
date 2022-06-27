@@ -21,6 +21,12 @@ input {
 
 h1 {
   font-size: 1rem;
+  
+}
+
+#h1-resultado {
+  margin-top: 65px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .button-creator {
