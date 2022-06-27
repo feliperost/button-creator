@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  background: #ccc;
+}
+
+main {
+  display: flex;
+  width: 50%;
+  margin-left: 10%;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.button-creator {
+  display: flex;
+  padding: 30px;
+}
+
+#controles {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.1);
+}
+
+.css {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #333;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.css span {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.resultado {
+  padding-top: 100px;
+}
