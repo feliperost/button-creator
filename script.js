@@ -63,3 +63,7 @@ setValues();
 function showCss() {
   cssText.innerHTML = '<span>' + btn.style.cssText.split('; ').join(';</span><span>');
 }
+
+function resetStorage() {
+  localStorage.clear();
+}

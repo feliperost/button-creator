@@ -29,6 +29,11 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.btn-reset {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .button-creator {
   display: flex;
   padding: 30px;
