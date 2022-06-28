@@ -4,7 +4,7 @@ const btn = document.querySelector('.btn');
 
 controles.addEventListener('change', handleChange);
 
-// 
+
 const handleStyle = {
   element: btn,
   backgroundColor(value) {
@@ -52,7 +52,7 @@ function saveValues(name, value) {
 function setValues() {
   const properties = Object.keys(localStorage);
   properties.forEach(property => {
-    handleStyle[property](localStorage[property]);
+    handleStyle[property].localStorage[property];
     controles.elements[property].value = localStorage[property];
   });
   showCss();
@@ -62,4 +62,9 @@ setValues();
 
 function showCss() {
   cssText.innerHTML = '<span>' + btn.style.cssText.split('; ').join(';</span><span>');
+}
+
+function resetStorage() {
+  localStorage.clear();
+  Location.reload();
 }
